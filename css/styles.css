@@ -54,6 +54,11 @@ body {
   min-width: 100px;
 }
 
+.btn-green {
+  background: #7cbb02;
+  border: none;
+}
+
 /* HEADER */
 .main-header {
   background-color: #0c325a;
@@ -85,4 +90,6 @@ body {
 
 .header-nav .nav-left img {
   vertical-align: middle;
+  position: relative;
+  bottom: 6px;
 }
