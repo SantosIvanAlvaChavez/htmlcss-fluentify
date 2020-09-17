@@ -33,9 +33,16 @@ body {
   width: 50%;
 }
 
+.col-3 {
+  width: calc(100% / 3);
+  padding: 0 15px;
+  float: left;
+}
+
 /* TIPOGRAPHY */
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 500;
 }
 
@@ -43,6 +50,20 @@ h2 {
   color: #000;
   font-size: 25px;
   margin-bottom: 20px;
+}
+
+h2.big {
+  font-size: 35px;
+  line-height: 1.4;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+a {
+    color: #5586bc;
 }
 
 .text-center {
@@ -155,4 +176,40 @@ h2 {
 
 .intro p {
   font-size: 20px;
+}
+
+/* Info */
+.info {
+  height: 560px;
+  padding: 35px 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.info img {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.info h3 {
+  color: #7cbb02;
+  font-size: 27px;
+  line-height: 35px;
+}
+
+.info h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #808080;
+}
+
+  /* Plan */
+.plan .col {
+  padding: 50px 0;
+}
+
+.plan p {
+  margin-bottom: 18px;
 }
