@@ -29,6 +29,15 @@ body {
   float: left;
 }
 
+.w-50 {
+  width: 50%;
+}
+
+/* TIPOGRAPHY */
+h1 {
+  font-weight: 500;
+}
+
 /* MENU */
 .menu-inline li {
   display: inline-block;
@@ -52,6 +61,9 @@ body {
   border-radius: 5px;
   display: inline-block;
   min-width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-green {
@@ -59,9 +71,18 @@ body {
   border: none;
 }
 
+.btn-large {
+  padding: 15px;
+}
+
 /* HEADER */
 .main-header {
+  height: 600px;
   background-color: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  background-position: bottom right;
 }
 
 .header-nav {
@@ -92,4 +113,23 @@ body {
   vertical-align: middle;
   position: relative;
   bottom: 6px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  height: 520px;
+  position: relative;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #fff;
 }
