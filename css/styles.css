@@ -213,3 +213,39 @@ a {
 .plan p {
   margin-bottom: 18px;
 }
+
+/* FOOTER */
+footer {
+  background-color: #d3d3d3;
+  padding: 35px 10px;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right li select{
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  font-size: 16px;
+  width: 150px;
+  background: transparent;
+  border: none;
+}
+
+/* Help */
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+
+.help a {
+  color: #fff;
+  background-color: #7cbb02;
+  display: inline-block;
+  padding: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+}
