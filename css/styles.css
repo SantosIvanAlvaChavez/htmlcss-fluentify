@@ -12,3 +12,77 @@ body {
 }
 
 /* UTILITIES */
+
+/* LAYOUT */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+/* MENU */
+.menu-inline li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.menu-inline li:first-child {
+  padding-left: 0;
+}
+
+.menu-inline li:last-child {
+  padding-right: 0;
+}
+
+/* BUTTONS */
+.btn {
+  text-align: center;
+  line-height: 25px;
+  padding: 5px 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 100px;
+}
+
+/* HEADER */
+.main-header {
+  background-color: #0c325a;
+}
+
+.header-nav {
+  font-size: 12px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav .nav-left {
+  width: 13%;
+}
+
+.header-nav .nav-center {
+  width: 47%;
+}
+
+.header-nav .nav-right {
+  width: 40%;
+  text-align: right;
+}
+
+.header-nav .nav-left img {
+  vertical-align: middle;
+}
